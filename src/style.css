@@ -1,0 +1,439 @@
+body {
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  border-radius: 10px;
+  color: #fff;
+  width: 50%;
+  padding: 30px;
+  margin: 30px auto;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-style: solid;
+  border-bottom-width: 0.666667px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(255, 255, 255);
+  border-left-style: solid;
+  border-left-width: 0.666667px;
+  border-right-color: rgb(255, 255, 255);
+  border-right-style: solid;
+  border-right-width: 0.666667px;
+  border-top-color: rgb(255, 255, 255);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top-style: solid;
+  border-top-width: 0.666667px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+.weather-app {
+  border: 1px solid #dadde1;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-3 {
+  text-align: center;
+  margin: 0% auto;
+}
+.col-9 {
+  -ms-flex: 0 0 75%;
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+[type="search"] {
+  outline-offset: -2px;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+[type="search"] {
+  outline-offset: -2px;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 300;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 15px;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+}
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input[value="Search"] {
+  text-align: center;
+  font-size: 12px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.form-control btn btn-primary shadow-sm {
+  text-align: center;
+  margin: 0 auto;
+}
+
+​[type="button"],
+[type="reset"],
+[type="submit"],
+button,
+input {
+  overflow: visible;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #3891c0;
+  border-color: #6f88da;
+  font-size: 12px;
+  margin: 10px auto;
+  margin-bottom: 10px;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 16px;
+  font-size: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(49, 47, 47);
+  height: 100%;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  max-width: 960px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+@media screen and (min-width: 1000px) {
+  .main-container {
+    width: 980px;
+    margin: 16px auto;
+    font-size: 1.1em;
+  }
+}
+
+.location-and-date {
+  width: 100%;
+  padding-top: 30px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+}
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+}
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.temperature {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.units {
+  position: relative;
+  top: -34px;
+}
+.units {
+  position: relative;
+  top: -34px;
+}
+
+.float-left {
+  float: left !important;
+}
+
+.col-6 {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.current-temperature {
+  display: flex;
+  margin-top: 0.25em;
+  width: 100%;
+}
+
+.current-temperature__icon-container {
+  flex-grow: 1.25;
+  text-align: center;
+}
+
+.current-temperature__content-container {
+  flex-grow: 1;
+  text-align: center;
+}
+
+li {
+  color: #7c7c7c;
+  font-size: 16px;
+  font-weight: 100;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+}
+li {
+  color: #0b0a0a;
+  font-size: 16px;
+  font-weight: 100;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+.current-stats {
+  width: 50%;
+  display: block;
+  margin-top: 30px;
+}
+
+.current-stats {
+  padding-bottom: 0;
+  border-top: none;
+  border-bottom: none;
+}
+
+.current-stats {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 1em;
+  width: 100%;
+  border-top: 1px solid rgba(11, 11, 11, 0.5);
+}
+
+.weather-5-days {
+  display: inline-block;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .weather-5-days {
+    display: block;
+  }
+}
+.weather-5-days__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 480px) {
+  .weather-5-days__container {
+    width: 50%;
+  }
+}
+
+.weather-5-days__heading {
+  color: #000;
+  font-size: 1em;
+  font-weight: normal;
+  padding-bottom: 30px;
+  padding-top: 15px;
+}
+
+.col-5-weather-5-days__item {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+@media screen and (min-width: 880px) {
+  .col-5-weather-by-hour__item {
+    width: 6.05em;
+  }
+}
+.weather-5-days__hour {
+  text-align: center;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+.weather-5-days__item img {
+  text-align: center;
+  padding-bottom: 20px;
+  display: inline-block;
+  margin: 0 auto;
+}
+.temp {
+  text-align: center;
+  padding-top: 10px;
+  margin: 0 auto;
+}
