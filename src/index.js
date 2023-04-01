@@ -39,7 +39,7 @@ function displayWeatherCondition(response) {
 
 function searchCity(city) {
   let apiKey = "4a4038e2f818fcb1a6d89b5c87093961";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
   axios.get(apiUrl).then(displayWeatherCondition);
 }
 function handleSubmit(event) {
